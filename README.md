@@ -1,32 +1,27 @@
-Backend README.md
+# Backend README.md
 Express.js TypeScript Backend for Windows Desktop App
-Description
+# Description
 This backend server is built with Express.js and TypeScript to support a Windows Desktop Application that mimics Google Forms. It handles storing and retrieving form submissions using a JSON file as a database.
-Technologies Used
+# Technologies Used
 TypeScript
 Express.js
 JSON file as database
-Installation
-Prerequisites
+# Installation Prerequisites
 Node.js (version XYZ or higher)
 NPM (or Yarn)
-Installation Steps
+# Installation Steps
 Clone the repository:  
 git clone https://github.com/username/backend-server.git
 Navigate to the backend directory:
 
-bash
-Copy code
 cd backend-server
 Install dependencies:
 
-bash
-Copy code
+
 npm install
 Build the TypeScript code (if necessary):
 
-bash
-Copy code
+
 npm run build
 Start the server: npm start
 
@@ -37,22 +32,22 @@ Always returns true.
 
 /read GET: Retrieves a specific form submission based on the query parameter "index" (0-indexed).
 
-Features
+# Features
 Basic Functionality:
 
 Save and retrieve form submissions.
 
 Basic error handling.
 
-Usage
+# Usage
 The frontend application interacts with these endpoints to manage form submissions.
 Ensure the server is running locally while using the Windows Desktop App.
 
-Contributing
+# Contributing
 Fork the repository.
 Make your changes.
 Submit a pull request with a clear description of your changes.
 
-Author
+# Author
 
 Priyanka 
